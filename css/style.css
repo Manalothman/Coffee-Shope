@@ -1,0 +1,86 @@
+/* ********Start Header******** */
+.header {
+background-color: darkcyan;
+color: white;
+line-height: 50px;
+}
+.header p {
+  float: right;
+}
+ul li:hover{
+  background-color: rgb(77, 184, 184);
+}
+
+/* ********End Header******** */
+
+/* ********Start section******** */
+.section {
+margin-top: 50px;
+text-align: center;
+box-shadow:3px 3px 10px #a1a1a1;
+border:solid 1px #ddd;
+padding: 70px;
+}
+.section img {
+  border-radius:13px 0px 13px 0px;
+}
+p {
+  padding: 20px;
+  margin: 5px 5px 5px 5px;
+  text-align: justify;
+}
+.section a button:hover {
+  background-color: rgb(77, 184, 184);
+  }
+
+/* ********End section******** */
+
+/* ********Start footer******** */
+footer p {
+  color: white;
+
+}
+footer h3 {
+  color: white;
+
+}
+
+footer {
+  background-color: darkcyan;
+  padding: 20px;
+}
+footer a {
+  color: white;
+
+}
+footer a:hover{
+  color: black;
+
+}
+footer ul li {
+  list-style: none;
+}
+
+/* ********End footer******** */
+
+ /* ********Start jumbotron******** */
+.jumbotron {
+  padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.jumbotron .service-info {
+  flex: 2;
+}
+
+
+.jumbotron .service-img {
+  flex: 1;
+}
+
+.contact {
+  margin: 30px 30px;
+}
+
+/* ********End jumbotron******** */
